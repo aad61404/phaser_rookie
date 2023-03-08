@@ -1,0 +1,39 @@
+{
+  "name": "phaser_rookie",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "dev-sit": "vite --mode sit",
+    "build-dev": "vite build --mode development",
+    "build-sit": "vite build --mode sit",
+    "build": "vite build",
+    "preview": "vite preview --port 3000"
+  },
+    "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "prettier": "^2.7.1",
+    "prettier-eslint": "^15.0.1",
+    "vite": "^3.2.0"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^6.0.10",
+    "decimal.js": "^10.4.2",
+    "phaser": "^3.55.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aad61404/phaser_rookie.git"
+  },
+  "author": "Jayson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aad61404/phaser_rookie/issues"
+  },
+  "homepage": "https://github.com/aad61404/phaser_rookie#readme"
+}
